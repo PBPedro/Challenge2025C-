@@ -34,12 +34,7 @@ A aplicação possui validações customizadas para garantir a integridade dos d
   Atualiza uma moto existente.
 - `DELETE /api/moto/{id}`  
   Remove uma moto pelo ID.
-- `GET /api/moto/marca/{marca}`  
-  Filtra motos por marca (busca parcial).
-- `GET /api/moto/anoMaiorQue/{ano}`  
-  Filtra motos com ano maior que o valor informado.
-- `GET /api/moto/filtro/{marca}/{anoMinimo}`  
-  Filtra motos pela marca e ano mínimo.
+
 
 ---
 
@@ -49,7 +44,7 @@ Para que o projeto funcione corretamente, instale os seguintes pacotes NuGet no 
 
 ```bash
 dotnet add package Microsoft.EntityFrameworkCore
-dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+dotnet add package Oracle.EntityFrameworkCore
 dotnet add package Microsoft.EntityFrameworkCore.Tools
 dotnet add package Microsoft.AspNetCore.Mvc.NewtonsoftJson
 dotnet add package Swashbuckle.AspNetCore

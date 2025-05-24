@@ -4,8 +4,8 @@ Esta é uma API desenvolvida com ASP.NET Core que permite realizar operações C
 
 A aplicação possui validações customizadas para garantir a integridade dos dados. Utiliza **Entity Framework Core** para persistência em banco de dados relacional, com mapeamento das entidades para as tabelas:
 
-- `TB_MTT_VEICULO` (motos)
-- `TB_MTT_USUARIO` (usuários)
+- `MTT_VEICULO` (motos)
+- `MTT_USUARIO` (usuários)
 
 ---
 

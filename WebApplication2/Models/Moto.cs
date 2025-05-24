@@ -19,7 +19,7 @@ namespace ChallengeC_.Models
         public string Placa { get; set; }
 
         [Required]
-        public string Estado { get; set; }    // "Disponível" ou "Não Disponível"
+        public string Estado { get; set; }    
 
         public string Local { get; set; }
     }
